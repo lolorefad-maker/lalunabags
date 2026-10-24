@@ -1325,6 +1325,7 @@ html, body {
   <div class="wrap">
     <nav>
       <a href="#collections" data-t="nav_col">Collections</a>
+      <a href="#hhs-a1" style="color: #2e7d32; font-weight: 600;">HHS A1</a>
       <a href="#picks" data-t="nav_picks">Curated</a>
       <a href="#materials" data-t="nav_mat">Materials</a>
       <a href="#craftsmanship" data-t="nav_craft">Atelier</a>
@@ -1435,6 +1436,20 @@ html, body {
     </div>
     <div class="split-img">
       <img src="images/navy_luxury_top_handle.jpg" alt="La Luna Luxury Structured Top Handle Handbag" loading="lazy">
+    </div>
+  </section>
+
+    <!-- HHS A1 Lepidium Spotlight Section (100% Exact Packaging Match) -->
+  <section class="split" id="hhs-a1" style="background: #f7faf7; border-top: 1px solid #e2ece3; border-bottom: 1px solid #e2ece3;">
+    <div class="split-img">
+      <img src="images/hhs_a1_travertine_botanical.jpg" alt="HHS A1 L-Carnitine Lepidium Authentic Turkish Formula" loading="lazy">
+    </div>
+    <div class="split-txt">
+      <div class="eyebrow" style="color: #2e7d32;" data-t="hhs_eye">ORIGINAL HERBAL FORMULA · التركيبة الأصلية المعتمدة</div>
+      <h2 data-t="hhs_h">HHS A1 L-Carnitine Lepidium.<br>الرشاقة ونحت القوام بدقة طبيعية.</h2>
+      <div class="rule" style="background: #2e7d32;"></div>
+      <p data-t="hhs_p">التركيبة التركية الأولى لسد الشهية، حرق الدهون العنيدة، وتحويلها لطاقة وحيوية طوال اليوم. عبوة 30 كبسولة عشبية مطابقة 100% للعلبة والزجاجة الأصلية مع ضمان الجودة.</p>
+      <a class="link-arrow" href="#picks" data-t="hhs_link" style="color: #2e7d32; font-weight: 600;">اكتشف عبوة الدواء الأصلية واطلب الآن — $85 →</a>
     </div>
   </section>
 
@@ -1641,6 +1656,54 @@ const COLLECTIONS = [
 
 /* Curated Bags: 4 Selected Designer Masterpieces */
 const PRODUCTS = [
+  {
+    id: "p_hhs_a1",
+    col: "icons",
+    badge: { en: "100% Authentic Original", ar: "الأصلي المعتمد 100%" },
+    title: { en: "HHS A1 L-Carnitine Lepidium Food Supplement", ar: "دواء HHS A1 ل-كارنتين وليبيديوم للتنحيف" },
+    desc: {
+      en: "Original Turkish formula for fat burning, appetite suppression, and metabolism boosting. 30 herbal capsules with exact authentic packaging.",
+      ar: "التركيبة التركية الأصلية الفعالة لسد الشهية وحرق الدهون وتحويلها لطاقة. 30 كبسولة عشبية مطابقة 100% للعبوة الأصلية."
+    },
+    price: 85,
+    img: "images/hhs_a1_travertine_botanical.jpg"
+  },
+  {
+    id: "p_hhs_marble",
+    col: "essentials",
+    badge: { en: "Carrara Marble Edition", ar: "استوديو رخام كارارا" },
+    title: { en: "HHS A1 Lepidium — Carrara Marble Edition", ar: "HHS A1 ليبيديوم — استوديو رخام كارارا الفاخر" },
+    desc: {
+      en: "Complete set: 30 capsules, amber apothecary bottle with silver cap, and original certified box on Carrara marble.",
+      ar: "طقم متكامل: 30 كبسولة، الزجاجة البنية ذات الغطاء الفضي، والعلبة الكرتونية الأصلية المعتمدة."
+    },
+    price: 85,
+    img: "images/hhs_a1_carrara_marble_water.jpg"
+  },
+  {
+    id: "p_hhs_oak",
+    col: "everyday",
+    badge: { en: "Herbal & Organic", ar: "مكونات عشبية طبيعية" },
+    title: { en: "HHS A1 Lepidium — Scandinavian Oak Edition", ar: "HHS A1 ليبيديوم — استوديو خشب البلوط والكتان" },
+    desc: {
+      en: "Natural organic herbal ingredients supporting active metabolic detox, fat burning, and daily vitality.",
+      ar: "مكونات عشبية طبيعية تدعم حرق الدهون والنشاط البدني وطرد السوائل المحتبسة."
+    },
+    price: 85,
+    img: "images/hhs_a1_scandinavian_oak.jpg"
+  },
+  {
+    id: "p_hhs_poster",
+    col: "mini",
+    badge: { en: "Full Guide & Guarantee", ar: "دليل الفوائد والضمان" },
+    title: { en: "HHS A1 Lepidium — Official Arabic Guide Poster", ar: "بوستر دليل الفوائد الشامل لدواء HHS A1" },
+    desc: {
+      en: "Full Arabic infographic detailing the 5 proven benefits: appetite control, energy boost, metabolism, and safety.",
+      ar: "إنفوجرافيك عربي تفصيلي يشرح الفوائد الخمس: سد الشهية، حرق الدهون، طاقة ونشاط، وطرد السوائل."
+    },
+    price: 85,
+    img: "images/hhs_a1_luxury_ad_poster.jpg"
+  },
   {
     id: "p_lv",
     col: "everyday",
