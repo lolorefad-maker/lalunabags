@@ -1,0 +1,2183 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Luna — Timeless Luxury Handbags</title>
+<meta name="description" content="La Luna — Timeless bags, thoughtful design. حقائب فاخرة خالدة بتصميم مدروس.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream: #faf6ef;
+  --sand: #f3ece0;
+  --sand-card: #f6f0e6;
+  --paper: #ffffff;
+  --navy: #0e1628;
+  --navy-2: #16223b;
+  --navy-3: #1f2f4e;
+  --ink: #18191d;
+  --muted: #6f6a60;
+  --muted-light: #9c9588;
+  --gold: #b38738;
+  --gold-light: #d8af65;
+  --gold-glow: #e9caa0;
+  --line: #e7dfd1;
+  --line-dark: #24314c;
+  --serif: "Cormorant Garamond", "Amiri", Georgia, serif;
+  --sans: Inter, Cairo, system-ui, sans-serif;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+html[lang=ar] body{font-family:Cairo,Inter,sans-serif}
+html[lang=ar] h1,html[lang=ar] h2,html[lang=ar] h3{letter-spacing:0;line-height:1.35}
+
+a{color:inherit;text-decoration:none;transition:all .2s ease}
+button{font:inherit;cursor:pointer;border:none;background:none;outline:none}
+img,svg{display:block;max-width:100%}
+
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:24px}
+.eyebrow{
+  font-size:.68rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:600;
+  display:inline-block;
+}
+html[lang=ar] .eyebrow{letter-spacing:0;font-size:.82rem}
+
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.15}
+.rule{width:38px;height:1px;background:var(--gold);margin:16px 0}
+
+/* top notification / brand strip */
+.top-notice{
+  background:#090f1d;
+  color:var(--gold-light);
+  font-size:.72rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  text-align:center;
+  padding:7px 14px;
+  border-bottom:1px solid rgba(179,135,56,.2);
+}
+html[lang=ar] .top-notice{letter-spacing:0;font-size:.8rem}
+
+/* sticky navbar */
+.top{
+  background:var(--navy);
+  color:var(--cream);
+  position:sticky;
+  top:0;
+  z-index:100;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.top .wrap{
+  display:grid;
+  grid-template-columns:1fr auto 1fr;
+  align-items:center;
+  height:72px;
+}
+.brand{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+.logo{
+  font-family:var(--serif);
+  font-size:1.95rem;
+  letter-spacing:.42em;
+  color:var(--sand);
+  font-weight:500;
+  padding-inline-start:.42em;
+  text-shadow:0 2px 10px rgba(0,0,0,.3);
+  transition:color .25s ease;
+}
+.logo:hover{color:#ffffff}
+.logo-sub{
+  font-size:.56rem;
+  letter-spacing:.28em;
+  color:var(--gold);
+  text-transform:uppercase;
+  margin-top:-2px;
+}
+.top nav{
+  display:flex;
+  gap:26px;
+  font-size:.74rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  opacity:.9;
+}
+.top nav a{position:relative;padding-block:6px}
+.top nav a::after{
+  content:'';
+  position:absolute;
+  bottom:0;
+  inset-inline:0;
+  height:1px;
+  background:var(--gold);
+  transform:scaleX(0);
+  transition:transform .25s ease;
+}
+.top nav a:hover{color:#fff;opacity:1}
+.top nav a:hover::after{transform:scaleX(1)}
+
+.tools{display:flex;gap:12px;justify-content:flex-end;align-items:center}
+.pill{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.2);
+  color:var(--sand);
+  border-radius:999px;
+  padding:6px 16px;
+  font-size:.75rem;
+  letter-spacing:.08em;
+  transition:all .2s ease;
+}
+html[lang=ar] .pill{letter-spacing:0}
+.pill:hover{
+  background:rgba(255,255,255,.1);
+  border-color:var(--gold);
+  color:#fff;
+}
+.cartbtn{position:relative;display:flex;align-items:center;gap:6px}
+.cartbtn b{
+  background:var(--gold);
+  color:#fff;
+  font-size:.68rem;
+  min-width:20px;
+  height:20px;
+  border-radius:10px;
+  display:inline-grid;
+  place-items:center;
+  padding-inline:4px;
+  font-weight:600;
+}
+.wishbtn{
+  background:transparent;
+  border:1px solid rgba(255,255,255,.2);
+  color:var(--sand);
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  transition:all .2s ease;
+}
+.wishbtn:hover{background:rgba(255,255,255,.1);border-color:var(--gold);color:#fff}
+.wishbtn svg{width:16px;height:16px}
+
+@media(max-width:880px){
+  .top nav{display:none}
+  .top .wrap{grid-template-columns:auto 1fr auto}
+  .brand{align-items:flex-start}
+  .logo{font-size:1.4rem;letter-spacing:.28em;padding-inline-start:.28em}
+}
+
+/* ========================================================
+   EXPANDED HERO BANNER (Bigger, Grander, Ultra-Luxury)
+======================================================== */
+.hero{
+  background:linear-gradient(135deg,#f4ede2 0%,#faf6f0 45%,#ede0cf 100%);
+  position:relative;
+  overflow:hidden;
+  border-bottom:1px solid var(--line);
+}
+.hero::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:radial-gradient(ellipse at 80% 25%, rgba(216,175,101,.22) 0%, transparent 65%);
+  pointer-events:none;
+}
+.hero .wrap{
+  display:grid;
+  grid-template-columns:1fr 1.35fr;
+  align-items:center;
+  min-height:640px;
+  gap:44px;
+  padding-block:54px;
+}
+.hero-content{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  z-index:2;
+}
+.hero-num{
+  font-size:.78rem;
+  letter-spacing:.2em;
+  color:var(--muted);
+  text-transform:uppercase;
+  margin-bottom:20px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+html[lang=ar] .hero-num{letter-spacing:0;font-size:.9rem}
+.hero-num::before{
+  content:'';
+  display:inline-block;
+  width:28px;
+  height:1px;
+  background:var(--gold);
+}
+.hero h1{
+  font-size:clamp(3.2rem,6.8vw,5.4rem);
+  font-weight:400;
+  letter-spacing:-.01em;
+  line-height:1.04;
+  margin-bottom:24px;
+  color:var(--navy);
+}
+.hero h1 span.dot{color:var(--gold)}
+.hero-sub{
+  font-size:.78rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--muted);
+  max-width:390px;
+  margin-bottom:36px;
+  line-height:1.9;
+  font-weight:500;
+}
+html[lang=ar] .hero-sub{letter-spacing:0;font-size:1.05rem;line-height:1.6}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  background:var(--navy);
+  color:#fff;
+  padding:16px 40px;
+  font-size:.74rem;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-weight:600;
+  border-radius:0;
+  box-shadow:0 14px 28px rgba(14,22,40,.2);
+  transition:all .3s var(--ease);
+}
+html[lang=ar] .btn{letter-spacing:0;font-size:.95rem}
+.btn:hover{
+  background:var(--navy-2);
+  transform:translateY(-2px);
+  box-shadow:0 20px 36px rgba(14,22,40,.26);
+  color:var(--gold-light);
+}
+
+.hero-visual{
+  position:relative;
+  z-index:2;
+  display:flex;
+  justify-content:center;
+}
+.hero-img-box{
+  position:relative;
+  width:100%;
+  max-width:660px;
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 30px 60px rgba(14,22,40,.18), 0 0 0 1px rgba(216,175,101,.35);
+  background:#fff;
+}
+.hero-img-box img{
+  width:100%;
+  height:auto;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  display:block;
+  transition:transform .8s var(--ease);
+}
+.hero-img-box:hover img{transform:scale(1.03)}
+.hero-badge{
+  position:absolute;
+  bottom:18px;
+  inset-inline-start:18px;
+  background:rgba(14,22,40,.88);
+  backdrop-filter:blur(10px);
+  color:var(--cream);
+  padding:9px 18px;
+  font-size:.66rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  border:1px solid rgba(216,175,101,.4);
+  box-shadow:0 6px 16px rgba(0,0,0,.3);
+}
+html[lang=ar] .hero-badge{letter-spacing:0;font-size:.82rem}
+
+@media(max-width:960px){
+  .hero .wrap{grid-template-columns:1fr;gap:36px;padding-block:36px}
+  .hero h1{font-size:clamp(2.6rem,8vw,3.8rem)}
+  .hero-visual{order:2}
+}
+
+/* ========================================================
+   TRUST & VALUES STRIP
+======================================================== */
+.strip{
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  position:relative;
+  z-index:10;
+}
+.strip .wrap{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:24px;
+  padding-block:30px;
+}
+.strip-item{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+}
+.strip-icon{
+  width:38px;
+  height:38px;
+  flex:none;
+  color:var(--gold);
+}
+.strip-item h4{
+  font-family:var(--sans);
+  font-size:.72rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--navy);
+  font-weight:700;
+  margin-bottom:4px;
+}
+html[lang=ar] .strip-item h4{letter-spacing:0;font-size:.88rem}
+.strip-item p{
+  color:var(--muted);
+  font-size:.78rem;
+  line-height:1.45;
+}
+@media(max-width:920px){
+  .strip .wrap{grid-template-columns:repeat(2,1fr);gap:20px}
+}
+@media(max-width:540px){
+  .strip .wrap{grid-template-columns:1fr}
+}
+
+/* ========================================================
+   SPLIT BANDS: MATERIAL STORIES & NAVY LUXURY HANDBAG
+======================================================== */
+.split{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  min-height:420px;
+  border-bottom:1px solid var(--line);
+}
+.split .split-img{
+  overflow:hidden;
+  position:relative;
+  background:#f1eae0;
+  display:grid;
+  place-items:center;
+}
+.split .split-img img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .7s var(--ease);
+}
+.split:hover .split-img img{transform:scale(1.03)}
+.split .split-txt{
+  padding:64px clamp(30px,6vw,84px);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background:var(--cream);
+}
+.split h2{
+  font-size:clamp(2rem,4vw,2.9rem);
+  color:var(--navy);
+  font-weight:500;
+  line-height:1.15;
+}
+.split p{
+  color:var(--muted);
+  font-size:.92rem;
+  max-width:440px;
+  margin-block:12px 24px;
+  line-height:1.8;
+}
+.link-arrow{
+  font-size:.72rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  font-weight:700;
+  color:var(--navy);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  position:relative;
+  padding-bottom:4px;
+  border-bottom:1px solid var(--gold);
+  width:fit-content;
+}
+html[lang=ar] .link-arrow{letter-spacing:0;font-size:.88rem}
+.link-arrow:hover{color:var(--gold)}
+
+/* Craftsmanship Dark Navy Band with Luxury Top Handle Bag */
+.split.navy .split-txt{
+  background:var(--navy);
+  color:var(--cream);
+}
+.split.navy h2{color:var(--sand)}
+.split.navy p{color:#d5cdc0}
+.split.navy .link-arrow{color:var(--sand)}
+.split.navy .link-arrow:hover{color:var(--gold-light)}
+
+@media(max-width:860px){
+  .split{grid-template-columns:1fr}
+  .split .split-img{min-height:300px}
+  .split.navy .split-txt{order:1}
+  .split.navy .split-img{order:2}
+}
+
+/* ========================================================
+   TIMELESS COLLECTIONS (Styles That Endure)
+======================================================== */
+section.block{padding:70px 0 30px}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  margin-bottom:28px;
+  gap:16px;
+  border-bottom:1px solid var(--line);
+  padding-bottom:14px;
+}
+.section-head h2{
+  font-size:clamp(1.9rem,3.8vw,2.7rem);
+  color:var(--navy);
+}
+
+.grid4{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+@media(max-width:960px){.grid4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.grid4{grid-template-columns:1fr}}
+
+.col-card{
+  background:var(--paper);
+  border:1px solid var(--line);
+  cursor:pointer;
+  transition:all .35s var(--ease);
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+}
+.col-card:hover, .col-card.active{
+  transform:translateY(-6px);
+  box-shadow:0 20px 40px rgba(14,22,40,.12);
+  border-color:var(--gold);
+}
+.col-card .col-thumb{
+  aspect-ratio:1.2;
+  overflow:hidden;
+  background:#f9f5ee;
+  display:grid;
+  place-items:center;
+}
+.col-card .col-thumb img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .5s var(--ease);
+}
+.col-card:hover .col-thumb img{transform:scale(1.05)}
+.col-card .col-label{
+  display:block;
+  padding:16px 12px;
+  font-size:.72rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  font-weight:600;
+  text-align:center;
+  border-top:1px solid var(--line);
+  color:var(--navy);
+  background:var(--paper);
+  transition:background .2s, color .2s;
+}
+html[lang=ar] .col-card .col-label{letter-spacing:0;font-size:.9rem}
+.col-card:hover .col-label, .col-card.active .col-label{
+  background:var(--navy);
+  color:var(--sand);
+}
+
+/* ========================================================
+   CURATED FOR YOU (Products on Pure White Studio)
+======================================================== */
+.filter-tabs{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:24px;
+}
+.filter-pill{
+  padding:8px 20px;
+  font-size:.72rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  border:1px solid var(--line);
+  background:var(--paper);
+  color:var(--muted);
+  border-radius:999px;
+  font-weight:600;
+  transition:all .2s ease;
+}
+html[lang=ar] .filter-pill{letter-spacing:0;font-size:.85rem}
+.filter-pill:hover, .filter-pill.active{
+  background:var(--navy);
+  color:#fff;
+  border-color:var(--navy);
+}
+
+.product-card{
+  background:var(--paper);
+  border:1px solid var(--line);
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  transition:all .35s var(--ease);
+}
+.product-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 22px 44px rgba(14,22,40,.1);
+  border-color:var(--gold-light);
+}
+.product-media{
+  position:relative;
+  aspect-ratio:1;
+  background:#ffffff;
+  overflow:hidden;
+  display:grid;
+  place-items:center;
+  padding:10px;
+}
+.product-media img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  transition:transform .5s var(--ease);
+}
+.product-card:hover .product-media img{transform:scale(1.04)}
+
+/* Wishlist Heart */
+.wish-heart{
+  position:absolute;
+  bottom:12px;
+  inset-inline-end:12px;
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  background:rgba(255,255,255,.9);
+  backdrop-filter:blur(4px);
+  border:1px solid var(--line);
+  display:grid;
+  place-items:center;
+  color:var(--muted);
+  transition:all .2s ease;
+  z-index:5;
+}
+.wish-heart:hover{
+  transform:scale(1.1);
+  color:#c53030;
+  border-color:#c53030;
+}
+.wish-heart.active{
+  color:#c53030;
+  fill:#c53030;
+  background:#fff;
+  border-color:#c53030;
+}
+.wish-heart svg{width:16px;height:16px}
+
+.product-badge{
+  position:absolute;
+  top:12px;
+  inset-inline-start:12px;
+  font-size:.62rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:700;
+  background:rgba(255,255,255,.9);
+  padding:4px 8px;
+  border-radius:2px;
+  border:1px solid rgba(179,135,56,.25);
+  z-index:5;
+}
+html[lang=ar] .product-badge{letter-spacing:0;font-size:.76rem}
+
+.product-info{
+  padding:16px;
+  border-top:1px solid var(--line);
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+.product-title{
+  font-family:var(--serif);
+  font-size:1.25rem;
+  color:var(--navy);
+  font-weight:600;
+  margin-bottom:4px;
+  line-height:1.2;
+}
+.product-desc{
+  font-size:.78rem;
+  color:var(--muted);
+  line-height:1.5;
+  margin-bottom:12px;
+  flex:1;
+}
+.product-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:auto;
+  padding-top:10px;
+}
+.product-price{
+  font-family:var(--serif);
+  font-size:1.3rem;
+  font-weight:600;
+  color:var(--navy);
+}
+.add-btn{
+  background:transparent;
+  border:1px solid var(--navy);
+  color:var(--navy);
+  padding:9px 18px;
+  font-size:.68rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  font-weight:600;
+  transition:all .2s ease;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+}
+html[lang=ar] .add-btn{letter-spacing:0;font-size:.85rem}
+.add-btn:hover{
+  background:var(--navy);
+  color:#fff;
+  border-color:var(--navy);
+}
+
+.carousel-dots{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+  margin-top:32px;
+}
+.carousel-dot{
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:var(--line);
+  cursor:pointer;
+  transition:all .25s ease;
+}
+.carousel-dot.active{
+  width:22px;
+  border-radius:10px;
+  background:var(--navy);
+}
+
+/* ========================================================
+   CARE & SERVICES
+======================================================== */
+.services-row{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+  margin-top:60px;
+}
+@media(max-width:960px){.services-row{grid-template-columns:1fr}}
+
+.service-card{
+  background:var(--paper);
+  border:1px solid var(--line);
+  padding:38px 32px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  position:relative;
+  transition:all .35s var(--ease);
+}
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 22px 45px rgba(14,22,40,.09);
+  border-color:var(--gold);
+}
+.service-icon{
+  width:36px;
+  height:36px;
+  color:var(--gold);
+  margin-bottom:18px;
+}
+.service-card .eyebrow{margin-bottom:10px}
+.service-card h3{
+  font-family:var(--serif);
+  font-size:1.45rem;
+  color:var(--navy);
+  margin-bottom:10px;
+  line-height:1.25;
+  font-weight:600;
+}
+html[lang=ar] .service-card h3{
+  font-size:1.35rem;
+  line-height:1.35;
+}
+.service-desc{
+  font-size:.84rem;
+  color:var(--muted);
+  line-height:1.65;
+  margin-bottom:8px;
+  flex:1;
+}
+.service-card .rule{
+  margin:16px 0 14px;
+  width:32px;
+}
+.service-card .link-arrow{
+  margin-top:auto;
+}
+
+/* Trust Perks Bar */
+.perks-bar{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+  padding:36px 0 10px;
+  color:var(--muted);
+  font-size:.78rem;
+  text-align:center;
+  border-top:1px solid var(--line);
+  margin-top:50px;
+}
+.perks-bar div{display:flex;align-items:center;justify-content:center;gap:8px}
+.perks-bar svg{width:18px;height:18px;color:var(--gold);flex:none}
+@media(max-width:760px){.perks-bar{grid-template-columns:1fr 1fr}}
+
+/* ========================================================
+   FOOTER
+======================================================== */
+footer{
+  background:var(--navy);
+  color:#cec5b5;
+  margin-top:60px;
+  padding:60px 0 30px;
+  border-top:1px solid var(--line-dark);
+}
+footer .wrap{
+  display:grid;
+  grid-template-columns:1.3fr 1fr 1fr 1.3fr;
+  gap:36px;
+}
+footer h4{
+  font-family:var(--sans);
+  font-size:.72rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--sand);
+  margin-bottom:16px;
+  font-weight:700;
+}
+html[lang=ar] footer h4{letter-spacing:0;font-size:.9rem}
+footer a{
+  display:block;
+  font-size:.84rem;
+  padding-block:4px;
+  color:#b6ae9e;
+}
+footer a:hover{color:#ffffff}
+.footer-brand .logo{text-align:start;padding-inline-start:0;margin-bottom:12px}
+.footer-newsletter{display:flex;flex-direction:column;gap:12px}
+.newsletter-form{
+  display:flex;
+  border-bottom:1px solid rgba(255,255,255,.2);
+  padding-bottom:6px;
+}
+.newsletter-form input{
+  background:transparent;
+  border:none;
+  color:#fff;
+  font-family:var(--sans);
+  font-size:.82rem;
+  width:100%;
+  outline:none;
+}
+.newsletter-form input::placeholder{color:#7c766b}
+.newsletter-form button{color:var(--gold-light);font-size:1.1rem;padding-inline:6px}
+.social-links{display:flex;gap:16px;margin-top:18px;color:var(--sand)}
+.social-links a:hover{color:var(--gold)}
+.footer-bottom{
+  text-align:center;
+  margin-top:50px;
+  padding-top:24px;
+  border-top:1px solid rgba(255,255,255,.08);
+  font-size:.74rem;
+  color:#7e7769;
+}
+@media(max-width:960px){
+  footer .wrap{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+  footer .wrap{grid-template-columns:1fr}
+}
+
+/* ========================================================
+   CART DRAWER & TOAST
+======================================================== */
+.veil{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+  backdrop-filter:blur(4px);
+  opacity:0;
+  pointer-events:none;
+  transition:.3s ease;
+  z-index:998;
+}
+.veil.on{opacity:1;pointer-events:auto}
+
+.drawer{
+  position:fixed;
+  inset-block:0;
+  inset-inline-end:0;
+  width:min(420px,100%);
+  background:var(--cream);
+  z-index:999;
+  transform:translateX(105%);
+  transition:transform .35s var(--ease);
+  display:flex;
+  flex-direction:column;
+  box-shadow:-20px 0 50px rgba(0,0,0,.25);
+}
+[dir=rtl] .drawer{transform:translateX(-105%)}
+.drawer.on{transform:none}
+
+.drawer header{
+  padding:22px 24px;
+  border-bottom:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#fff;
+}
+.drawer header h3{font-size:1.6rem;color:var(--navy)}
+.drawer .x{
+  font-size:1.8rem;
+  line-height:1;
+  color:var(--muted);
+  transition:color .2s;
+}
+.drawer .x:hover{color:var(--navy)}
+
+.cart-items{flex:1;overflow-y:auto;padding:18px 24px}
+.cart-item{
+  display:grid;
+  grid-template-columns:74px 1fr auto;
+  gap:16px;
+  align-items:center;
+  padding-block:14px;
+  border-bottom:1px solid var(--line);
+}
+.cart-item .thumb{
+  width:74px;
+  height:74px;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:2px;
+  overflow:hidden;
+  padding:4px;
+}
+.cart-item .thumb img{width:100%;height:100%;object-fit:contain}
+.cart-item h5{
+  font-family:var(--serif);
+  font-size:1.15rem;
+  color:var(--navy);
+  margin-bottom:4px;
+}
+.cart-item .price{font-size:.9rem;font-weight:600;color:var(--gold)}
+.qty-row{display:flex;align-items:center;gap:10px;margin-top:6px}
+.qty-row button{
+  width:26px;
+  height:26px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-size:.9rem;
+  display:grid;
+  place-items:center;
+}
+.qty-row button:hover{background:var(--sand)}
+.cart-item .remove-btn{
+  color:var(--muted);
+  font-size:.78rem;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.empty-cart{
+  color:var(--muted);
+  text-align:center;
+  padding:80px 20px;
+  font-size:1rem;
+}
+
+.drawer-foot{
+  padding:20px 24px;
+  border-top:1px solid var(--line);
+  background:#fff;
+  display:grid;
+  gap:12px;
+}
+.drawer-total{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:1.1rem;
+  font-family:var(--serif);
+  font-weight:600;
+  color:var(--navy);
+}
+.drawer-foot .btn{
+  width:100%;
+  background:#1a8a4d;
+  color:#fff;
+  box-shadow:none;
+}
+.drawer-foot .btn:hover{background:#157540}
+.drawer-foot .btn:disabled{opacity:.4;cursor:not-allowed}
+.drawer-foot p{font-size:.75rem;color:var(--muted);text-align:center}
+
+.toast{
+  position:fixed;
+  inset-block-end:24px;
+  inset-inline:0;
+  margin-inline:auto;
+  width:max-content;
+  max-width:90%;
+  background:var(--navy);
+  color:#fff;
+  border:1px solid var(--gold);
+  padding:14px 28px;
+  font-size:.9rem;
+  z-index:1000;
+  opacity:0;
+  transform:translateY(16px);
+  transition:.3s var(--ease);
+  pointer-events:none;
+  box-shadow:0 12px 30px rgba(0,0,0,.25);
+}
+.toast.on{opacity:1;transform:none}
+
+/* ========================================================
+   COMPREHENSIVE MOBILE RESPONSIVE OPTIMIZATIONS
+======================================================== */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+@media (max-width: 1024px) {
+  .hero .wrap {
+    grid-template-columns: 1fr 1.15fr;
+    gap: 32px;
+  }
+  .split .split-txt {
+    padding: 48px clamp(24px, 4vw, 48px);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    padding-inline: 16px;
+  }
+  
+  /* Navbar */
+  .top .wrap {
+    height: 62px;
+    grid-template-columns: 1fr auto;
+  }
+  .logo {
+    font-size: 1.45rem;
+    letter-spacing: .28em;
+    padding-inline-start: .28em;
+  }
+  .tools {
+    gap: 8px;
+  }
+  .pill {
+    padding: 5px 12px;
+    font-size: .72rem;
+  }
+  .wishbtn {
+    width: 32px;
+    height: 32px;
+  }
+  .wishbtn svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  /* Hero Banner */
+  .hero {
+    border-bottom: 1px solid var(--line);
+  }
+  .hero .wrap {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-block: 32px 40px;
+    gap: 28px;
+  }
+  .hero-content {
+    align-items: flex-start;
+  }
+  .hero-num {
+    margin-bottom: 12px;
+    font-size: .72rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.4rem, 8.5vw, 3.4rem);
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+  .hero-sub {
+    font-size: .92rem;
+    margin-bottom: 24px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+  .hero .btn {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: .82rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-visual {
+    order: 2;
+    width: 100%;
+  }
+  .hero-img-box {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 16px 36px rgba(14,22,40,.14);
+  }
+  .hero-img-box img {
+    aspect-ratio: 16/10;
+  }
+  .hero-badge {
+    bottom: 12px;
+    inset-inline-start: 12px;
+    padding: 6px 12px;
+    font-size: .62rem;
+  }
+
+  /* Trust Values Strip */
+  .strip .wrap {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 14px;
+    padding-block: 22px;
+  }
+  .strip-item {
+    gap: 10px;
+  }
+  .strip-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .strip-item h4 {
+    font-size: .68rem;
+    margin-bottom: 2px;
+  }
+  .strip-item p {
+    font-size: .72rem;
+    line-height: 1.35;
+  }
+
+  /* Split sections */
+  .split {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+  .split .split-img {
+    height: 240px;
+    min-height: 240px;
+    width: 100%;
+  }
+  .split .split-txt {
+    padding: 36px 20px;
+  }
+  .split h2 {
+    font-size: clamp(1.8rem, 6vw, 2.3rem);
+  }
+  .split p {
+    font-size: .88rem;
+    margin-block: 10px 20px;
+  }
+  .split.navy .split-txt {
+    order: 1;
+  }
+  .split.navy .split-img {
+    order: 2;
+  }
+
+  /* Collections Pedestals */
+  section.block {
+    padding: 48px 0 20px;
+  }
+  .section-head {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .section-head h2 {
+    font-size: clamp(1.6rem, 5.5vw, 2.1rem);
+  }
+  .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .col-card .col-label {
+    padding: 12px 6px;
+    font-size: .72rem;
+  }
+
+  /* Filter Tabs (Horizontal Swipe on Mobile) */
+  .filter-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-bottom: 18px;
+  }
+  .filter-tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .filter-pill {
+    flex: none;
+    white-space: nowrap;
+    padding: 7px 16px;
+    font-size: .76rem;
+  }
+
+  /* Product Cards Grid on Mobile */
+  #productsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .product-media {
+    padding: 6px;
+  }
+  .product-info {
+    padding: 12px;
+  }
+  .product-title {
+    font-size: 1.05rem;
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+  .product-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: .72rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+  }
+  .product-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding-top: 8px;
+  }
+  .product-price {
+    font-size: 1.15rem;
+  }
+  .add-btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: .66rem;
+    justify-content: center;
+    letter-spacing: .08em;
+  }
+  .wish-heart {
+    width: 30px;
+    height: 30px;
+    bottom: 8px;
+    inset-inline-end: 8px;
+  }
+  .wish-heart svg {
+    width: 14px;
+    height: 14px;
+  }
+  .product-badge {
+    top: 8px;
+    inset-inline-start: 8px;
+    font-size: .56rem;
+    padding: 3px 6px;
+  }
+
+  /* Service Cards */
+  .services-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 40px;
+  }
+  .service-card {
+    padding: 28px 20px;
+  }
+  .service-card h3 {
+    font-size: 1.22rem;
+  }
+  .service-desc {
+    font-size: .8rem;
+  }
+
+  /* Trust Perks */
+  .perks-bar {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 24px 0 8px;
+    font-size: .72rem;
+    margin-top: 36px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    padding: 44px 0 24px;
+  }
+  footer .wrap {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  footer .logo {
+    font-size: 1.6rem;
+  }
+  .footer-bottom {
+    margin-top: 36px;
+    padding-top: 18px;
+  }
+
+  /* Drawer Mobile */
+  .drawer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    font-size: 1.28rem;
+    letter-spacing: .22em;
+    padding-inline-start: .22em;
+  }
+  .strip .wrap {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .perks-bar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<!-- Top notification strip -->
+<div class="top-notice" data-t="top_strip">COMPLIMENTARY WORLDWIDE DELIVERY ON ALL ORDERS OVER $300</div>
+
+<!-- Navigation Header -->
+<header class="top">
+  <div class="wrap">
+    <nav>
+      <a href="#collections" data-t="nav_col">Collections</a>
+      <a href="#picks" data-t="nav_picks">Curated</a>
+      <a href="#materials" data-t="nav_mat">Materials</a>
+      <a href="#craftsmanship" data-t="nav_craft">Atelier</a>
+      <a href="#care" data-t="nav_care">Care</a>
+    </nav>
+    <div class="brand">
+      <a href="#" class="logo">LALUNA</a>
+    </div>
+    <div class="tools">
+      <button class="pill" id="langBtn" type="button">English</button>
+      <button class="wishbtn" id="wishBtn" type="button" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </button>
+      <button class="pill cartbtn" id="cartBtn" type="button">
+        <span data-t="cart_lbl">Bag</span>
+        <b id="cartCount">0</b>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Expanded Majestic Hero Banner -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-content">
+        <div class="hero-num" data-t="hero_num">— 01 Timeless by design.</div>
+        <h1 id="heroH1">Designed<br>To Stay<br>Beautiful<span class="dot">.</span></h1>
+        <p class="hero-sub" data-t="hero_p">TIMELESS BAGS, THOUGHTFUL DESIGN, MADE FOR A LIFETIME.</p>
+        <a class="btn" href="#picks" data-t="hero_btn">EXPLORE COLLECTIONS</a>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-box">
+          <img src="images/hero_salon_bag_hd.jpg" alt="La Luna Luxury Flagship Salon Gallery" width="1024" height="768" loading="eager">
+          <div class="hero-badge" data-t="hero_badge">FLAGSHIP ATELIER COLLECTION</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Strip (4 Values) -->
+  <section class="strip">
+    <div class="wrap">
+      <div class="strip-item">
+        <svg class="strip-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M16 3l11 4v8c0 7-5 12-11 14C10 27 5 22 5 15V7z"/>
+          <path d="M11 15l4 4 7-8"/>
+        </svg>
+        <div>
+          <h4 data-t="s1_h">PREMIUM MATERIALS</h4>
+          <p data-t="s1_p">Responsibly sourced. Exceptionally selected.</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <svg class="strip-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 26l12-12M20 6l6 6-4 4-6-6zM8 8l4 4"/>
+          <path d="M22 22l4 4"/>
+        </svg>
+        <div>
+          <h4 data-t="s2_h">EXPERT CRAFTSMANSHIP</h4>
+          <p data-t="s2_p">Handcrafted by artisans with generations of skill.</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <svg class="strip-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="16" cy="16" r="11"/>
+          <path d="M16 9v7l5 3"/>
+        </svg>
+        <div>
+          <h4 data-t="s3_h">TIMELESS DESIGN</h4>
+          <p data-t="s3_p">Elegant silhouettes that never go out of style.</p>
+        </div>
+      </div>
+      <div class="strip-item">
+        <svg class="strip-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M16 4l3.5 7 7.5 1-5.5 5 1.5 8-7-4-7 4 1.5-8L5 12l7.5-1z"/>
+        </svg>
+        <div>
+          <h4 data-t="s4_h">MADE TO LAST</h4>
+          <p data-t="s4_p">Quality you can see. Durability you can feel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Material Stories (Split section) -->
+  <section class="split" id="materials">
+    <div class="split-img">
+      <img src="images/material_leather_lock_hd.jpg" alt="Macro detail of full-grain leather and brass clasp" loading="lazy">
+    </div>
+    <div class="split-txt">
+      <div class="eyebrow" data-t="mat_eye">MATERIAL STORIES</div>
+      <h2 data-t="mat_h">The Finest Materials.<br>Beautifully Chosen.</h2>
+      <div class="rule"></div>
+      <p data-t="mat_p">From supple full-grain leather to hand-finished hardware, every detail is chosen with purpose. We work with trusted tanneries and ateliers who share our commitment to quality, ethics, and sustainability.</p>
+      <a class="link-arrow" href="#picks" data-t="mat_link">DISCOVER OUR MATERIALS →</a>
+    </div>
+  </section>
+
+  <!-- Dark Navy Section Featuring Luxury Top Handle Handbag -->
+  <section class="split navy" id="craftsmanship">
+    <div class="split-txt">
+      <div class="eyebrow" data-t="cr_eye">CRAFTSMANSHIP & ATELIER</div>
+      <h2 data-t="cr_h">Where Craft<br>Becomes Art.</h2>
+      <div class="rule"></div>
+      <p data-t="cr_p">Each handbag is an architectural masterpiece of meticulous work. Handcrafted from the finest full-grain leathers with hand-buffed 24k gold-plated hardware, shaped to accompany your journey for a lifetime.</p>
+      <a class="link-arrow" href="#picks" data-t="cr_link">EXPLORE THE ATELIER →</a>
+    </div>
+    <div class="split-img">
+      <img src="images/navy_luxury_top_handle.jpg" alt="La Luna Luxury Structured Top Handle Handbag" loading="lazy">
+    </div>
+  </section>
+
+  <!-- Timeless Collections (Pedestal Cards) -->
+  <section class="block wrap" id="collections">
+    <div class="eyebrow" data-t="col_eye">TIMELESS COLLECTIONS</div>
+    <div class="section-head">
+      <h2 data-t="col_h">Styles That Endure.</h2>
+      <a class="link-arrow" href="#picks" id="viewAllColBtn" data-t="view_all">VIEW ALL COLLECTIONS →</a>
+    </div>
+    <div class="grid4" id="colsGrid">
+      <!-- Collection cards dynamically rendered -->
+    </div>
+  </section>
+
+  <!-- Curated For You (Products on Pure White Studio Background) -->
+  <section class="block wrap" id="picks">
+    <div class="eyebrow" data-t="pk_eye">EDITOR'S PICKS</div>
+    <div class="section-head">
+      <h2 data-t="pk_h">Curated For You.</h2>
+      <a class="link-arrow" href="#picks" id="shopAllBtn" data-t="shop_all">SHOP ALL →</a>
+    </div>
+
+    <!-- Filter category pills -->
+    <div class="filter-tabs" id="filterTabs">
+      <button class="filter-pill active" data-filter="all" type="button" data-t="f_all">All Pieces</button>
+      <button class="filter-pill" data-filter="everyday" type="button" data-t="f_everyday">The Everyday</button>
+      <button class="filter-pill" data-filter="icons" type="button" data-t="f_icons">The Icons</button>
+      <button class="filter-pill" data-filter="essentials" type="button" data-t="f_essentials">The Essentials</button>
+      <button class="filter-pill" data-filter="mini" type="button" data-t="f_mini">The Mini Edit</button>
+    </div>
+
+    <div class="grid4" id="productsGrid">
+      <!-- Product cards dynamically rendered -->
+    </div>
+
+    <!-- Carousel indicator dots -->
+    <div class="carousel-dots">
+      <span class="carousel-dot active"></span>
+      <span class="carousel-dot"></span>
+      <span class="carousel-dot"></span>
+      <span class="carousel-dot"></span>
+    </div>
+
+    <!-- Care & Guides + Services Cards (Pure Luxury Typography, No Images) -->
+    <div class="services-row" id="care">
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <div class="eyebrow" data-t="svc1_eye">CARE & GUIDES</div>
+        <h3 data-t="svc1_h">Keep your bag beautiful for years to come.</h3>
+        <p class="service-desc" data-t="svc1_p">Simple, timeless rituals for leather conditioning, gentle cleansing, and archival storage.</p>
+        <div class="rule"></div>
+        <a class="link-arrow" href="#care" data-t="svc1_l">VIEW CARE GUIDE →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+          </svg>
+        </div>
+        <div class="eyebrow" data-t="svc2_eye">PREMIUM SERVICE</div>
+        <h3 data-t="svc2_h">We're here for you, at every step.</h3>
+        <p class="service-desc" data-t="svc2_p">Direct access to our dedicated atelier stylists for bespoke recommendations and order assistance.</p>
+        <div class="rule"></div>
+        <a class="link-arrow" href="#contact" data-t="svc2_l">LEARN MORE →</a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4 2"/>
+          </svg>
+        </div>
+        <div class="eyebrow" data-t="svc3_eye">PRIVATE SHOPPING</div>
+        <h3 data-t="svc3_h">Enjoy exclusive benefits and early access.</h3>
+        <p class="service-desc" data-t="svc3_p">Join our private salon circle to preview upcoming capsule drops and bespoke atelier pieces.</p>
+        <div class="rule"></div>
+        <a class="link-arrow" href="#contact" data-t="svc3_l">JOIN THE CLUB →</a>
+      </div>
+    </div>
+
+    <!-- Trust Perks Bar -->
+    <div class="perks-bar">
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        <span data-t="p_perk1">Complimentary Shipping</span>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+        <span data-t="p_perk2">Easy 30-Day Returns</span>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span data-t="p_perk3">Dedicated Concierge</span>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span data-t="p_perk4">Secure Encrypted Orders</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Luxury Midnight Footer -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-brand">
+      <div class="logo">LALUNA</div>
+      <p style="font-size:.84rem;margin-top:12px;line-height:1.7;max-width:280px" data-t="f_about">Timeless bags crafted with passion, made to be loved for life.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Pinterest"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4c0 1.9-1.3 3.5-3.1 3.9-.1-.3-.2-.8 0-1.2l.6-2.5c.2.4.8.7 1.4.7 1.8 0 3.1-1.6 3.1-3.6 0-2-1.6-3.5-3.8-3.5-2.6 0-4 1.8-4 3.7 0 .8.3 1.6.7 2.1-.1.3-.2.9-.3 1.1-.1.3-.3.4-.6.3-1.6-.7-2.3-2.6-2.3-4.2z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4 data-t="f_shop">SHOP</h4>
+      <a href="#picks" data-t="f_new">New In</a>
+      <a href="#collections" data-t="f_totes">Tote Bags</a>
+      <a href="#picks" data-t="f_cross">Crossbody & Mini</a>
+      <a href="#picks" data-t="f_best">Best Sellers</a>
+    </div>
+    <div>
+      <h4 data-t="f_care">CUSTOMER CARE</h4>
+      <a href="#" id="waFooterLink" target="_blank" rel="noopener" data-t="f_wa">WhatsApp Concierge</a>
+      <a href="#care" data-t="nav_care">Care & Repair</a>
+      <a href="#contact" data-t="f_ship">Shipping & Returns</a>
+      <a href="#contact" data-t="f_faq">Client FAQ</a>
+    </div>
+    <div class="footer-newsletter">
+      <h4 data-t="f_news">STAY IN THE KNOW</h4>
+      <p style="font-size:.82rem;line-height:1.6" data-t="f_news_p">Be the first to discover new collections and exclusive atelier invitations.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();alert('Thank you for subscribing.');">
+        <input type="email" placeholder="Enter your email" required data-t-ph="f_ph">
+        <button type="submit">→</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="yearSpan"></span> LALUNA. ALL RIGHTS RESERVED.</p>
+  </div>
+</footer>
+
+<!-- Shopping Cart Drawer -->
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" aria-label="cart">
+  <header>
+    <h3 data-t="cart_title">Your Bag</h3>
+    <button class="x" id="closeCart" type="button" aria-label="Close cart">×</button>
+  </header>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="drawer-total">
+      <span data-t="c_total">Total:</span>
+      <span id="cartTotalPrice">$0</span>
+    </div>
+    <button class="btn" id="sendWaBtn" type="button" data-t="send_wa">Send order on WhatsApp</button>
+    <p data-t="send_note">WhatsApp opens with your selected pieces formatted ready for direct assistance.</p>
+  </div>
+</aside>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<script>
+/* ========================================================
+   CONFIG & STORE STATE
+======================================================== */
+const CONFIG = {
+  phone: "000000000000", // Replace with your WhatsApp number with country code
+  currency: "$"
+};
+
+/* Collections (matching the 4 low stone pedestals in reference) */
+const COLLECTIONS = [
+  {
+    id: "everyday",
+    title: { en: "The Everyday", ar: "اليومية" },
+    img: "images/col_everyday_pedestal_hd.jpg"
+  },
+  {
+    id: "icons",
+    title: { en: "The Icons", ar: "الأيقونات" },
+    img: "images/col_icons_pedestal_hd.jpg"
+  },
+  {
+    id: "essentials",
+    title: { en: "The Essentials", ar: "الأساسيات" },
+    img: "images/col_essentials_pedestal_hd.jpg"
+  },
+  {
+    id: "mini",
+    title: { en: "The Mini Edit", ar: "الميني" },
+    img: "images/col_mini_pedestal_hd.jpg"
+  }
+];
+
+/* Curated Bags: 4 Selected Designer Masterpieces */
+const PRODUCTS = [
+  {
+    id: "p_lv",
+    col: "everyday",
+    badge: { en: "Iconic Edition", ar: "إصدار أيقوني" },
+    title: { en: "Louis Vuitton Monogram Madeleine Tote", ar: "حقيبة لويس فيتون مادلين مونوجرام" },
+    desc: {
+      en: "Rich monogram canvas tote with fine black leather handles, gold lock charm, and signature twilly scarf.",
+      ar: "حقيبة توت بجلد مونوجرام الفاخر مع يدين من الجلد الأسود المجدول ودلاية ذهبية ووشاح حريري أنيق."
+    },
+    price: 620,
+    img: "images/product_lv_monogram.jpg"
+  },
+  {
+    id: "p_dior",
+    col: "icons",
+    badge: { en: "Signature Oblique", ar: "تطريز أوبليك" },
+    title: { en: "Christian Dior Oblique Saddle Bag", ar: "حقيبة ديور سادل أوبليك جاكار" },
+    desc: {
+      en: "Curved saddle silhouette in signature blue embroidered jacquard with magnetic aged gold 'D' charm.",
+      ar: "تصميم السادل الأيقوني بقماش أوبليك المطرز مع حلية حرف D الذهبية المعتقة وحزام مطرز فاخر."
+    },
+    price: 580,
+    img: "images/product_dior_saddle.jpg"
+  },
+  {
+    id: "p_ysl",
+    col: "essentials",
+    badge: { en: "Calfskin Leather", ar: "جلد عجل طبيعي" },
+    title: { en: "Saint Laurent YSL Solferino Crossbody", ar: "حقيبة سان لوران سولفيرينو كروس" },
+    desc: {
+      en: "Supple cognac camel calfskin leather with polished gold YSL Cassandra monogram and curb chain strap.",
+      ar: "جلد عجل بلون الكراميل الغني مع قفل كاساندرا الذهبي وسلسلة كلاسيكية أنيقة."
+    },
+    price: 495,
+    img: "images/product_ysl_crossbody.jpg"
+  },
+  {
+    id: "p_gucci",
+    col: "everyday",
+    badge: { en: "GG Monogram Duo", ar: "طقم توت مع محفظة" },
+    title: { en: "Gucci Ophidia GG Supreme Tote and Wallet", ar: "حقيبة غوتشي أوفيديا توت مع محفظة" },
+    desc: {
+      en: "Classic GG Supreme canvas tote with green-red web ribbon, double leather handles, and matching wallet.",
+      ar: "حقيبة توت واسعة بقماش سوبريم GG مع الشريط الأخضر والأحمر التراثي ومحفظة متناسقة."
+    },
+    price: 540,
+    img: "images/product_gucci_ophidia.jpg"
+  }
+];
+
+/* Multi-language strings */
+const I18N = {
+  ar: {
+    top_strip: "شحن مجاني لكافة الطلبات | خدمة عملاء خاصة على مدار الساعة",
+    nav_col: "المجموعات",
+    nav_picks: "مختاراتنا",
+    nav_mat: "الخامات",
+    nav_craft: "الأتيليه",
+    nav_care: "العناية",
+    cart_lbl: "الحقيبة",
+    hero_num: "— 01 تصميم خالد للزمن.",
+    hero_h1_1: "صُمّمت",
+    hero_h1_2: "لتبقى",
+    hero_h1_3: "جميلة",
+    hero_p: "حقائب خالدة. تصميم مدروس. صُنعت لتدوم العمر.",
+    hero_btn: "استكشف المجموعات",
+    hero_badge: "تشكيلة الأتيليه الفاخرة",
+    s1_h: "خامات استثنائية",
+    s1_p: "مختارة بعناية فائقة وبأعلى معايير الجودة العالمية.",
+    s2_h: "حرفية متقنة",
+    s2_p: "مشغولة بأيدي أمهر الحرفيين المتوارثين لأصول الصنعة.",
+    s3_h: "تصميم خالد",
+    s3_p: "خطوط راقية لا تتأثر بمرور الزمن وتناسب كل العصور.",
+    s4_h: "تدوم طويلًا",
+    s4_p: "جودة استثنائية تراها بوضوح وتشعر بلمستها الفاخرة.",
+    mat_eye: "قصة الخامات",
+    mat_h: "أجمل الخامات،\nباختيار مدروس.",
+    mat_p: "من الجلود الطبيعية الحبيبية إلى الإكسسوارات المعدنية المصقولة يدويًا، كل تفصيلة صُممت لتبقى حقيبتك متألقة سنة بعد سنة.",
+    mat_link: "اكتشف خاماتنا الفاخرة ←",
+    cr_eye: "الحرفية والأتيليه",
+    cr_h: "حيث تتحول الصنعة\nإلى فن.",
+    cr_p: "كل حقيبة يد هي تحفة معمارية مصقولة بعناية فائقة من أجود الجلود الطبيعية وبقفل مطلي بذهب عيار 24، صُممت لترافقكِ مدى الحياة.",
+    cr_link: "استكشف تشكيلة الأتيليه ←",
+    col_eye: "مجموعات خالدة",
+    col_h: "أنماط تدوم للأبد.",
+    view_all: "عرض جميع المجموعات ←",
+    pk_eye: "اختيارات المحرّر",
+    pk_h: "مختارة بعناية لأجلك.",
+    shop_all: "تسوق الكل ←",
+    f_all: "جميع القطع",
+    f_everyday: "اليومية",
+    f_icons: "الأيقونات",
+    f_essentials: "الأساسيات",
+    f_mini: "الميني",
+    add_bag: "أضف للحقيبة",
+    svc1_eye: "العناية والإرشادات",
+    svc1_h: "حافظي على بريق حقيبتك لسنوات قادمة.",
+    svc1_l: "دليل العناية بالجلد ←",
+    svc1_p: "إرشادات وتوجيهات بسيطة للحفاظ على ترطيب الجلد، تنظيفه الآمن، وتخزينه بعناية.",
+    svc2_eye: "خدمة كبار العملاء",
+    svc2_h: "فريقنا معك في كل خطوة ومستعد لأي استفسار.",
+    svc2_l: "اعرف المزيد ←",
+    svc2_p: "تواصل مباشر مع مستشاري الأتيليه للحصول على ترشيحات مخصصة والمساعدة في طلبك.",
+    svc3_eye: "التسوق الخاص",
+    svc3_h: "مزايا استثنائية وحصرية لأعضاء نادينا.",
+    svc3_l: "انضم للنادي ←",
+    svc3_p: "انضمي لنادينا الخاص للاستمتاع بالوصول المبكر لأحدث التشكيلات الحصرية والقطع النادرة.",
+    p_perk1: "توصيل سريع مجاني",
+    p_perk2: "استبدال واسترجاع سهل 30 يومًا",
+    p_perk3: "مستشار تسوق شخصي",
+    p_perk4: "طلب موثوق عبر واتساب",
+    f_about: "حقائب فاخرة صُنعت بشغف، لتُحَب وترافقكِ مدى الحياة.",
+    f_shop: "التسوق",
+    f_new: "وصل حديثًا",
+    f_totes: "حقائب التوت",
+    f_cross: "حقائب الكروس والميني",
+    f_best: "الأكثر طلبًا",
+    f_care: "خدمة العملاء",
+    f_wa: "محادثة مباشرة عبر واتساب",
+    f_ship: "الشحن والاستبدال",
+    f_faq: "الأسئلة الشائعة",
+    f_news: "ابقي على اطلاع",
+    f_news_p: "كوني أول من يكتشف التشكيلات الحصرية ودعوات المعارض الخاصة.",
+    f_ph: "أدخلي بريدك الإلكتروني",
+    cart_title: "حقيبتكِ",
+    c_total: "المجموع:",
+    send_wa: "إتمام الطلب عبر واتساب",
+    send_note: "سيتم فتح واتساب برسالة منسقة بالقطع المطلوبة لمتابعة الطلب مباشرة.",
+    empty_cart: "حقيبة التسوق فارغة حاليًا.",
+    remove: "حذف",
+    toast_added: "تمت إضافة الحقيبة إلى سلتكِ بنجاح",
+    toast_wish: "تم تحديث قائمة الرغبات",
+    wa_greeting: "مرحبًا La Luna، أود طلب الحقائب التالية من الموقع:"
+  },
+  en: {
+    top_strip: "COMPLIMENTARY WORLDWIDE DELIVERY ON ALL ORDERS OVER $300",
+    nav_col: "Collections",
+    nav_picks: "Curated",
+    nav_mat: "Materials",
+    nav_craft: "Atelier",
+    nav_care: "Care",
+    cart_lbl: "Bag",
+    hero_num: "— 01 Timeless by design.",
+    hero_h1_1: "Designed",
+    hero_h1_2: "To Stay",
+    hero_h1_3: "Beautiful",
+    hero_p: "TIMELESS BAGS, THOUGHTFUL DESIGN, MADE FOR A LIFETIME.",
+    hero_btn: "EXPLORE COLLECTIONS",
+    hero_badge: "FLAGSHIP ATELIER COLLECTION",
+    s1_h: "PREMIUM MATERIALS",
+    s1_p: "Responsibly sourced. Exceptionally selected.",
+    s2_h: "EXPERT CRAFTSMANSHIP",
+    s2_p: "Handcrafted by artisans with generations of skill.",
+    s3_h: "TIMELESS DESIGN",
+    s3_p: "Elegant silhouettes that never go out of style.",
+    s4_h: "MADE TO LAST",
+    s4_p: "Quality you can see. Durability you can feel.",
+    mat_eye: "MATERIAL STORIES",
+    mat_h: "The Finest Materials.\nBeautifully Chosen.",
+    mat_p: "From supple full-grain leather to hand-finished hardware, every detail is chosen with purpose. We work with trusted tanneries and ateliers who share our commitment to quality, ethics, and sustainability.",
+    mat_link: "DISCOVER OUR MATERIALS →",
+    cr_eye: "CRAFTSMANSHIP & ATELIER",
+    cr_h: "Where Craft\nBecomes Art.",
+    cr_p: "Each handbag is an architectural masterpiece of meticulous work. Handcrafted from the finest full-grain leathers with hand-buffed 24k gold-plated hardware, shaped to accompany your journey for a lifetime.",
+    cr_link: "EXPLORE THE ATELIER →",
+    col_eye: "TIMELESS COLLECTIONS",
+    col_h: "Styles That Endure.",
+    view_all: "VIEW ALL COLLECTIONS →",
+    pk_eye: "EDITOR'S PICKS",
+    pk_h: "Curated For You.",
+    shop_all: "SHOP ALL →",
+    f_all: "All Pieces",
+    f_everyday: "The Everyday",
+    f_icons: "The Icons",
+    f_essentials: "The Essentials",
+    f_mini: "The Mini Edit",
+    add_bag: "Add to Bag",
+    svc1_eye: "CARE & GUIDES",
+    svc1_h: "Keep your bag beautiful for years to come.",
+    svc1_l: "VIEW CARE GUIDE →",
+    svc1_p: "Simple, timeless rituals for leather conditioning, gentle cleansing, and archival storage.",
+    svc2_eye: "PREMIUM SERVICE",
+    svc2_h: "We're here for you, at every step.",
+    svc2_l: "LEARN MORE →",
+    svc2_p: "Direct access to our dedicated atelier stylists for bespoke recommendations and order assistance.",
+    svc3_eye: "PRIVATE SHOPPING",
+    svc3_h: "Enjoy exclusive benefits and early access.",
+    svc3_l: "JOIN THE CLUB →",
+    svc3_p: "Join our private salon circle to preview upcoming capsule drops and bespoke atelier pieces.",
+    p_perk1: "Complimentary Shipping",
+    p_perk2: "Easy 30-Day Returns",
+    p_perk3: "Dedicated Concierge",
+    p_perk4: "Secure Encrypted Orders",
+    f_about: "Timeless bags crafted with passion, made to be loved for life.",
+    f_shop: "SHOP",
+    f_new: "New In",
+    f_totes: "Tote Bags",
+    f_cross: "Crossbody & Mini",
+    f_best: "Best Sellers",
+    f_care: "CUSTOMER CARE",
+    f_wa: "WhatsApp Concierge",
+    f_ship: "Shipping & Returns",
+    f_faq: "Client FAQ",
+    f_news: "STAY IN THE KNOW",
+    f_news_p: "Be the first to discover new collections and exclusive atelier invitations.",
+    f_ph: "Enter your email",
+    cart_title: "Your Bag",
+    c_total: "Total:",
+    send_wa: "Send order on WhatsApp",
+    send_note: "WhatsApp opens with your selected pieces formatted ready for direct assistance.",
+    empty_cart: "Your shopping bag is currently empty.",
+    remove: "Remove",
+    toast_added: "Bag successfully added to your shopping bag",
+    toast_wish: "Wishlist updated",
+    wa_greeting: "Hello La Luna, I would like to order the following items:"
+  }
+};
+
+/* Application State */
+let currentLang = "ar";
+let activeFilter = "all";
+let cart = [];
+let wishlist = new Set();
+
+try {
+  currentLang = localStorage.getItem("ll_lang") || "ar";
+  cart = JSON.parse(localStorage.getItem("ll_cart") || "[]");
+  wishlist = new Set(JSON.parse(localStorage.getItem("ll_wish") || "[]"));
+} catch (e) {}
+
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+
+function saveState() {
+  try {
+    localStorage.setItem("ll_cart", JSON.stringify(cart));
+    localStorage.setItem("ll_wish", JSON.stringify([...wishlist]));
+    localStorage.setItem("ll_lang", currentLang);
+  } catch (e) {}
+}
+
+function showToast(msg) {
+  const t = $("#toast");
+  t.textContent = msg;
+  t.classList.add("on");
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => t.classList.remove("on"), 2200);
+}
+
+/* ========================================================
+   RENDER FUNCTIONS
+======================================================== */
+function renderAll() {
+  const dict = I18N[currentLang];
+  document.documentElement.lang = currentLang;
+  document.documentElement.dir = currentLang === "ar" ? "rtl" : "ltr";
+
+  // Translate all marked data-t elements
+  $$("[data-t]").forEach(el => {
+    const k = el.dataset.t;
+    if (dict[k]) {
+      if (k === "mat_h" || k === "cr_h") {
+        el.innerHTML = dict[k].replace(/\n/g, "<br>");
+      } else {
+        el.textContent = dict[k];
+      }
+    }
+  });
+
+  // Placeholder translation
+  $$("[data-t-ph]").forEach(el => {
+    const k = el.dataset.tPh;
+    if (dict[k]) el.placeholder = dict[k];
+  });
+
+  // Hero H1
+  $("#heroH1").innerHTML = `${dict.hero_h1_1}<br>${dict.hero_h1_2}<br>${dict.hero_h1_3}<span class="dot">.</span>`;
+
+  // Language toggle button text
+  $("#langBtn").textContent = currentLang === "ar" ? "English" : "العربية";
+
+  // Render Collection Cards (Pedestal Gallery)
+  $("#colsGrid").innerHTML = COLLECTIONS.map(c => `
+    <div class="col-card ${activeFilter === c.id ? "active" : ""}" data-col-id="${c.id}" role="button" tabindex="0">
+      <div class="col-thumb">
+        <img src="${c.img}" alt="${c.title[currentLang]}" loading="lazy">
+      </div>
+      <span class="col-label">${c.title[currentLang]}</span>
+    </div>
+  `).join("");
+
+  // Render Products Grid
+  renderProducts();
+
+  // Update Cart
+  renderCart();
+
+  // WhatsApp footer link
+  $("#waFooterLink").href = `https://wa.me/${CONFIG.phone}`;
+  $("#yearSpan").textContent = new Date().getFullYear();
+
+  saveState();
+}
+
+function renderProducts() {
+  const dict = I18N[currentLang];
+  const filtered = activeFilter === "all" ? PRODUCTS : PRODUCTS.filter(p => p.col === activeFilter);
+
+  // Update filter pills active state
+  $$(".filter-pill").forEach(p => {
+    p.classList.toggle("active", p.dataset.filter === activeFilter);
+  });
+
+  $("#productsGrid").innerHTML = filtered.map(p => {
+    const isWished = wishlist.has(p.id);
+    return `
+      <article class="product-card" data-id="${p.id}">
+        <div class="product-media">
+          <span class="product-badge">${p.badge[currentLang]}</span>
+          <button class="wish-heart ${isWished ? "active" : ""}" data-wish="${p.id}" type="button" aria-label="Save to wishlist">
+            <svg viewBox="0 0 24 24" fill="${isWished ? "currentColor" : "none"}" stroke="currentColor" stroke-width="1.8">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </button>
+          <img src="${p.img}" alt="${p.title[currentLang]}" loading="lazy">
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">${p.title[currentLang]}</h3>
+          <p class="product-desc">${p.desc[currentLang]}</p>
+          <div class="product-meta">
+            <span class="product-price">${CONFIG.currency}${p.price}</span>
+            <button class="add-btn" data-add="${p.id}" type="button">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              ${dict.add_bag}
+            </button>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderCart() {
+  const dict = I18N[currentLang];
+  const totalCount = cart.reduce((acc, item) => acc + item.qty, 0);
+  const totalPrice = cart.reduce((acc, item) => {
+    const p = PRODUCTS.find(x => x.id === item.id);
+    return acc + (p ? p.price * item.qty : 0);
+  }, 0);
+
+  $("#cartCount").textContent = totalCount;
+  $("#cartTotalPrice").textContent = `${CONFIG.currency}${totalPrice}`;
+  $("#sendWaBtn").disabled = totalCount === 0;
+
+  if (cart.length === 0) {
+    $("#cartItems").innerHTML = `<div class="empty-cart">${dict.empty_cart}</div>`;
+    return;
+  }
+
+  $("#cartItems").innerHTML = cart.map(item => {
+    const p = PRODUCTS.find(x => x.id === item.id);
+    if (!p) return "";
+    return `
+      <div class="cart-item">
+        <div class="thumb">
+          <img src="${p.img}" alt="${p.title[currentLang]}">
+        </div>
+        <div>
+          <h5>${p.title[currentLang]}</h5>
+          <span class="price">${CONFIG.currency}${p.price * item.qty}</span>
+          <div class="qty-row">
+            <button data-dec="${item.id}" type="button">−</button>
+            <span>${item.qty}</span>
+            <button data-inc="${item.id}" type="button">+</button>
+          </div>
+        </div>
+        <button class="remove-btn" data-rm="${item.id}" type="button">${dict.remove}</button>
+      </div>
+    `;
+  }).join("");
+}
+
+function openDrawer(open) {
+  $("#drawer").classList.toggle("on", open);
+  $("#veil").classList.toggle("on", open);
+}
+
+/* ========================================================
+   EVENT LISTENERS
+======================================================== */
+document.addEventListener("click", e => {
+  // Add to cart
+  const addBtn = e.target.closest("[data-add]");
+  if (addBtn) {
+    const id = addBtn.dataset.add;
+    const item = cart.find(x => x.id === id);
+    if (item) item.qty++;
+    else cart.push({ id, qty: 1 });
+    renderCart();
+    saveState();
+    showToast(I18N[currentLang].toast_added);
+    return;
+  }
+
+  // Wishlist toggle
+  const wishBtn = e.target.closest("[data-wish]");
+  if (wishBtn) {
+    const id = wishBtn.dataset.wish;
+    if (wishlist.has(id)) wishlist.delete(id);
+    else wishlist.add(id);
+    renderProducts();
+    saveState();
+    showToast(I18N[currentLang].toast_wish);
+    return;
+  }
+
+  // Quantity increase
+  const incBtn = e.target.closest("[data-inc]");
+  if (incBtn) {
+    const id = incBtn.dataset.inc;
+    const item = cart.find(x => x.id === id);
+    if (item) item.qty++;
+    renderCart();
+    saveState();
+    return;
+  }
+
+  // Quantity decrease
+  const decBtn = e.target.closest("[data-dec]");
+  if (decBtn) {
+    const id = decBtn.dataset.dec;
+    const item = cart.find(x => x.id === id);
+    if (item) {
+      item.qty--;
+      if (item.qty <= 0) cart = cart.filter(x => x.id !== id);
+    }
+    renderCart();
+    saveState();
+    return;
+  }
+
+  // Remove from cart
+  const rmBtn = e.target.closest("[data-rm]");
+  if (rmBtn) {
+    const id = rmBtn.dataset.rm;
+    cart = cart.filter(x => x.id !== id);
+    renderCart();
+    saveState();
+    return;
+  }
+
+  // Collection card filter click
+  const colCard = e.target.closest("[data-col-id]");
+  if (colCard) {
+    const colId = colCard.dataset.colId;
+    activeFilter = activeFilter === colId ? "all" : colId;
+    renderProducts();
+    $$(".col-card").forEach(c => c.classList.toggle("active", c.dataset.colId === activeFilter));
+    $("#picks").scrollIntoView({ behavior: "smooth" });
+    return;
+  }
+
+  // Category filter pill click
+  const filterPill = e.target.closest("[data-filter]");
+  if (filterPill) {
+    activeFilter = filterPill.dataset.filter;
+    renderProducts();
+    $$(".col-card").forEach(c => c.classList.toggle("active", c.dataset.colId === activeFilter));
+    return;
+  }
+});
+
+// View All buttons
+$("#viewAllColBtn").onclick = e => {
+  e.preventDefault();
+  activeFilter = "all";
+  renderProducts();
+  $$(".col-card").forEach(c => c.classList.remove("active"));
+  $("#picks").scrollIntoView({ behavior: "smooth" });
+};
+$("#shopAllBtn").onclick = e => {
+  e.preventDefault();
+  activeFilter = "all";
+  renderProducts();
+  $$(".col-card").forEach(c => c.classList.remove("active"));
+};
+
+// Language toggle
+$("#langBtn").onclick = () => {
+  currentLang = currentLang === "ar" ? "en" : "ar";
+  renderAll();
+};
+
+// Cart drawer controls
+$("#cartBtn").onclick = () => openDrawer(true);
+$("#closeCart").onclick = () => openDrawer(false);
+$("#veil").onclick = () => openDrawer(false);
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") openDrawer(false);
+});
+
+// WhatsApp Checkout
+$("#sendWaBtn").onclick = () => {
+  if (cart.length === 0) return;
+  const dict = I18N[currentLang];
+  const itemsText = cart.map(i => {
+    const p = PRODUCTS.find(x => x.id === i.id);
+    return `• ${p ? p.title[currentLang] : i.id} (Qty: ${i.qty}) — ${CONFIG.currency}${p ? p.price * i.qty : 0}`;
+  }).join("\n");
+
+  const total = cart.reduce((acc, i) => {
+    const p = PRODUCTS.find(x => x.id === i.id);
+    return acc + (p ? p.price * i.qty : 0);
+  }, 0);
+
+  const fullMsg = `${dict.wa_greeting}\n\n${itemsText}\n\n${dict.c_total} ${CONFIG.currency}${total}`;
+  const url = `https://wa.me/${CONFIG.phone}?text=${encodeURIComponent(fullMsg)}`;
+  window.open(url, "_blank", "noopener");
+
+  cart = [];
+  saveState();
+  renderCart();
+  openDrawer(false);
+  showToast(currentLang === "ar" ? "تم تحويل الطلب إلى واتساب" : "Order sent to WhatsApp");
+};
+
+// Wishlist quick button in navbar
+$("#wishBtn").onclick = () => {
+  if (wishlist.size === 0) {
+    showToast(currentLang === "ar" ? "قائمة الرغبات فارغة. اضغط على رمز القلب لحفظ الحقائب." : "Your wishlist is empty. Tap any heart icon to save pieces.");
+  } else {
+    showToast(currentLang === "ar" ? `لديك ${wishlist.size} حقيبة في قائمة الرغبات.` : `You have ${wishlist.size} pieces in your wishlist.`);
+  }
+};
+
+// Initialize
+renderAll();
+</script>
+</body>
+</html>
